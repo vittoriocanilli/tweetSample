@@ -7,9 +7,11 @@ Please find the documentation at
 
 https://dev.twitter.com/docs/api/1.1/get/statuses/sample
 
-The script should understand four input parameters:
+The script should understand two input parameters:
 
-• n: Exit after n tweets were outputted.
-• t: Exit after t seconds (doesn‘t has to be exact).
-• Default values are 0, run indefinitely.
-• The output should contain the username and the text of the tweet.
+* `--n`: exit after *n* tweets were outputted
+* `--t`: exit after *t* seconds (doesn‘t has to be exact)
+
+Their default values are 0: in that case it runs indefinitely.
+
+The output should contain the username and the text of the tweet.
